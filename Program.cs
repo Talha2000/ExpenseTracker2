@@ -18,5 +18,8 @@ namespace ExpenseTracker2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+        static public string connString = "Data Source=DESKTOP-TH286H6;Initial Catalog=ExpenseTrackerDB;Integrated Security=True";
+
     }
 }

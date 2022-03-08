@@ -33,7 +33,7 @@ namespace ExpenseTracker2
 
             try
             {
-                String query = "SELECT * FROM New_Login WHERE username = '" + txtName.Text + "' AND password = '" + txtPass.Text + "'";
+                String query = "SELECT * FROM Login WHERE username = '" + txtName.Text + "' AND password = '" + txtPass.Text + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, con);
 
                 DataTable dtable = new DataTable();
@@ -71,7 +71,9 @@ namespace ExpenseTracker2
         private void button2_Click(object sender, EventArgs e)
         {
             // Signup button
-            MessageBox.Show("signup clicked");
+            Signup sign = new Signup();
+            sign.Show();
+            this.Hide();
         }
     }
 }

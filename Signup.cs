@@ -43,7 +43,6 @@ namespace ExpenseTracker2
                 catch (Exception ex)
                 {
                     // We should log the error somewhere, 
-                    // for this example let's just show a message
                     MessageBox.Show("ERROR:" + ex.Message);
                 }
             }

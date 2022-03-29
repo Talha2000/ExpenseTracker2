@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace ExpenseTracker2
 {
@@ -20,6 +22,5 @@ namespace ExpenseTracker2
         }
 
         static public string connString = "Data Source=DESKTOP-TH286H6;Initial Catalog=ExpenseTrackerDB;Integrated Security=True";
-
     }
 }

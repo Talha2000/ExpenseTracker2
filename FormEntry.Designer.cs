@@ -1,6 +1,6 @@
 ﻿namespace ExpenseTracker2
 {
-    partial class Form2
+    partial class FormEntry
     {
         /// <summary>
         /// Required designer variable.

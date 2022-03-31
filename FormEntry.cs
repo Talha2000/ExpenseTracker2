@@ -11,15 +11,15 @@ using System.Windows.Forms;
 
 namespace ExpenseTracker2
 {
-    public partial class Form2 : Form
+    public partial class FormEntry : Form
     {
         string user;
-        public Form2()
+        public FormEntry()
         {
             InitializeComponent();
         }
 
-        public Form2(string curr_user)
+        public FormEntry(string curr_user)
         {
             InitializeComponent();
             user = curr_user;

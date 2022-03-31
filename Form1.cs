@@ -37,7 +37,7 @@ namespace ExpenseTracker2
 
             if (dr.Read() == true)
             {
-                new Form2(current_user).Show();
+                new FormEntry(current_user).Show();
                 this.Hide();
             }
             else
